@@ -1,0 +1,7 @@
+project_folder/
+|-- subfolder/
+|   |-- file1.ext
+|   |-- file2.ext
+|-- .hiddenfile
+|-- README.md
+|-- LICENSE

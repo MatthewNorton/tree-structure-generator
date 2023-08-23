@@ -1,0 +1,21 @@
+# OS generated files
+.DS_Store  # Mac OS finder file
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Backup and temporary files often created by text editors
+*~
+*.bak
+*.swp  # Vim swap files
+*.swo  # Vim swap files
+
+# Ignore all .txt files
+*.txt
+
+# But don't ignore tree_example.txt
+!tree_example.txt
+
+# Log or output files, if your script generates them
+*.log
