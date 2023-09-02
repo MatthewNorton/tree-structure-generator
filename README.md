@@ -22,10 +22,10 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/tree-structure-generator.git
 cd tree-structure-generator
 ```
 
-2. Ensure the `generate_structure.sh` script is executable:
+2. Ensure the `tree_generator.sh` script is executable:
 
 ```bash
-chmod +x bin/generate_structure.sh
+chmod +x bin/tree_generator.sh
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ chmod +x bin/generate_structure.sh
 Run the script with:
 
 ```bash
-./bin/generate_structure.sh <path-to-tree-file>
+bash ./bin/tree_generator.sh <path-to-tree-file>
 ```
 
 Where `<path-to-tree-file>` is the path to your text file containing the tree structure.
