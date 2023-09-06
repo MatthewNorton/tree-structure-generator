@@ -40,16 +40,34 @@ Where `<path-to-tree-file>` is the path to your text file containing the tree st
 
 ## Example Tree File Format
 
-The script accepts tree structures in the following format:
+*Update*: The script now accepts tree structures in the following two formats.
+```
+project_folder/
+│
+├── subfolder/
+│   ├── file1.ext
+│   ├── file2.ext
+│   ├── level3_subfolder/
+│   │   ├── level3_file1.ext
+│   │   ├── level3_file2.ext
+│
+├── .hiddenfile
+├── README.md
+└── LICENSE
 
+```
 ```
 project_folder/
 |-- subfolder/
 |   |-- file1.ext
 |   |-- file2.ext
+|   |-- level3_subfolder/
+|   |   |-- level3_file1.ext
+|   |   |-- level3_file2.ext
 |-- .hiddenfile
 |-- README.md
 |-- LICENSE
+
 ```
 
 ## Limitations

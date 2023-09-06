@@ -2,6 +2,9 @@ project_folder/
 |-- subfolder/
 |   |-- file1.ext
 |   |-- file2.ext
+|   |-- level3_subfolder/
+|   |   |-- level3_file1.ext
+|   |   |-- level3_file2.ext
 |-- .hiddenfile
 |-- README.md
 |-- LICENSE
