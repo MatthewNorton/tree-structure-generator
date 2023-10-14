@@ -18,12 +18,11 @@ Generate directory and file structures from a tree-like format provided in a tex
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/tree-structure-generator.git
+git clone https://github.com/MatthewNorton/tree-structure-generator.git
 cd tree-structure-generator
 ```
 
 2. Ensure the `tree_generator.sh` script is executable:
-
 ```bash
 chmod +x bin/tree_generator.sh
 ```
@@ -31,8 +30,8 @@ chmod +x bin/tree_generator.sh
 ## Usage
 
 Run the script with:
-
 ```bash
+#example bash ./bin/tree_generator.sh ./bin/tree_example.txt
 bash ./bin/tree_generator.sh <path-to-tree-file>
 ```
 
